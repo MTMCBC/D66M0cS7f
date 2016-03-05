@@ -1,0 +1,16 @@
+{
+  "name": "circular-content-carousel",
+  "version": "1.0.4",
+  "main": ["dist/css/style.css", "dist/js/jquery.contentcarousel.js"],
+  "ignore": [
+    ".gitignore",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery.easing": "~1.3.0",
+    "jquery-mousewheel": ">=3.0.4",
+    "jquery": ">=1.7.0"
+  },
+  "devDependencies": {},
+  "homepage": "http://tympanus.net/Development/CircularContentCarousel/"
+}

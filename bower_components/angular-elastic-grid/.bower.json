@@ -1,0 +1,46 @@
+{
+  "name": "angular-elastic-grid",
+  "version": "1.0.4",
+  "authors": [
+    {
+      "name": "Lucien Bénié",
+      "email": "lucien.benie@gmail.com"
+    }
+  ],
+  "main": [
+    "../jquery-elastic-grid/js/modernizr.custom.js",
+    "../jquery-elastic-grid/js/classie.js",
+    "../jquery-elastic-grid/js/elastic_grid.js",
+    "../jquery-elastic-grid/js/jquery.elastislide.js",
+    "../jquery-elastic-grid/js/jquery.hoverdir.js",
+    "../jquery-elastic-grid/js/elastic_grid.encode.js",
+    "../jquery-elastic-grid/css/elastic_grid.css",
+    "dist/angular-elastic-grid.js",
+    "dist/style.css"
+  ],
+  "ignore": [
+    "src",
+    "test",
+    "Gruntfile.js",
+    "**/.*"
+  ],
+  "dependencies": {
+    "jquery-elastic-grid": "vukhanhtruong/jquery-elastic-grid"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-scenario": ">=1.2.0",
+    "angular": ">=1.2.0"
+  },
+  "homepage": "https://github.com/lbenie/angular-elastic-grid",
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "926d4488c1c5d5077964ef14f665f81ca698475c"
+  },
+  "_source": "git://github.com/lbenie/angular-elastic-grid.git",
+  "_target": "~1.0.4",
+  "_originalSource": "angular-elastic-grid",
+  "_direct": true
+}

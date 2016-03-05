@@ -1,0 +1,48 @@
+<div class="hub-carousel-container">
+  <div class="hub-carousel">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides track by $index" active="slide.active" class="cbc-hub-carousel-element">
+        <div style="background-image:url({{slide.image}})" class="div-with-bg"></div>
+        <div class="descrip" ng-class="{'animate-desc' : currentSlide == $index}">
+          <img class="pg-logo" src="/assets/images/sahebatElSa3ada.jpg"/>
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </slide>
+    </carousel>
+  </div>
+  <div class="live-now-container">
+    <div class="live-now">
+      <div class="logos">
+        <div class="ind" style="right:0%" ng-class="{'full-height': hovered}"></div>
+        <div class="live-title"></div>
+      <span ng-repeat="channel in channels  track by $index">
+        <div class="ind" style="{{ 'right: ' + (($index * 20) + 10) + '%'}}" ng-class="{'selected-ind': currentSlide == $index, 'full-height': currentSlide != undefined  && hovered}"></div>
+
+        <div class="hub-carousel-strip-strip" ng-class="{'hub-carousel-strip-container-selected': (currentSlide == $index && hovered)}" ng-mouseleave="leaved()" >
+          <div class="hub-carousel-strip-container" >
+            <div class="hub-carousel-strip-element" ng-repeat="prog in channelsProgrammes[$index]">
+              <div class="desc-hover">asdsadad</div>
+              <div class="hub-carousel-strip-element-bg" style="background-color: {{prog.color}} "></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="live-now-cbc-logo" style="background-image: url({{channel.logo}})" ng-mouseover="hoverItem($index)"></div>
+      </span>
+        <div class="ind" style="right:90%" ng-class="{'full-height': currentSlide != undefined && hovered}"></div>
+        <div class="live-title"></div>
+      </div>
+
+      <div class="live">
+
+        <div class="live-title">يعرض الأن</div>
+        <div ng-repeat="progName in live">
+          <div class="prog-name">{{progName.title}}</div>
+        </div>
+        <div class="live-title"></div>
+      </div>
+    </div>
+  </div>
+
+</div>

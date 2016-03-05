@@ -1,0 +1,33 @@
+<div class="live-streaming">
+  <inner-top-bar></inner-top-bar>
+  <div style="background-color: green; width: 10%; height: 360px; float: right; margin-top: 77px;"></div>
+  <div class="channels-list">
+    <div class="channels">
+      <div style="background-image: url('/assets/images/cbc.png')"></div>
+      <div style="background-image: url('/assets/images/cbc-drama-logo.png')"></div>
+      <div style="background-image: url('/assets/images/cbc-sofra-logo.png')"></div>
+      <div style="background-image: url('/assets/images/cbc-extra-logo.png')"></div>
+    </div>
+  </div>
+    <iframe width="40%" height="360" ng-src="{{link}}"
+            frameborder="0" allowfullscreen style="float: right; margin-top: 77px">
+    </iframe>
+    <!--<div class="live-streaming-schedule">-->
+      <!--<div class="right" ng-if="!left" ng-click="rightClick()"></div>-->
+      <!--<div class="middle" ng-if="!right && !left">-->
+        <!--<div class="top" ng-click="rightClick()" >يعرض الأن</div>-->
+        <!--<div class="down" ng-click="leftClick()">يعرض لاحقاً</div>-->
+      <!--</div>-->
+      <!--<div class="all-right" ng-if="right"></div>-->
+      <!--<div class="all-left" ng-if="left"></div>-->
+      <!--<div class="left" ng-click="leftClick()" ng-if="!right"></div>-->
+    <!--</div>-->
+  <div style="width: 20%; padding-right: 10px; padding-left: 10px; box-sizing: border-box;margin-top: 77px; float: right" news-list-lg></div>
+  <div style="background-color: green; width: 10%; height: 360px; float: right; margin-top: 77px;"></div>
+
+  <div class="bottom-carousel">
+    <div class="ad"></div>
+    <hub-items-carousel></hub-items-carousel>
+  </div>
+  <hub-footer></hub-footer>
+</div>

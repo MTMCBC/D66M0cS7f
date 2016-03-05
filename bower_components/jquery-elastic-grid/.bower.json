@@ -1,0 +1,13 @@
+{
+  "name": "jquery-elastic-grid",
+  "homepage": "https://github.com/vukhanhtruong/jquery-elastic-grid",
+  "_release": "b9212f02cf",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b9212f02cf4652a6e938e2c10b0fb559d2d2605d"
+  },
+  "_source": "git://github.com/vukhanhtruong/jquery-elastic-grid.git",
+  "_target": "*",
+  "_originalSource": "vukhanhtruong/jquery-elastic-grid"
+}

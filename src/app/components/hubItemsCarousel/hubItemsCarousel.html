@@ -1,0 +1,11 @@
+<div class="items-carousel-component-all">
+  <div class="items-carousel-component-container">
+    <slick settings="vm.slickConfig" infinite=true slides-to-show = {{vm.slidesNumber}} slides-to-scroll=3 class="slick-element">
+      <div ng-repeat="slide in vm.slides">
+        <div id="bt-menu-trigger-out" class="slick-item bt-menu-trigger-out" ng-click="vm.slideClick()" style="background-image:url({{slide.image}})">
+          <footer class="footer"></footer>
+        </div>
+      </div>
+    </slick>
+  </div>
+</div>

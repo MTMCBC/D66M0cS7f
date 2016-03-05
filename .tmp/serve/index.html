@@ -1,0 +1,107 @@
+<!doctype html>
+<html ng-app="cbc">
+  <head>
+    <meta charset="utf-8">
+    <title>cbc</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/angular-toastr/dist/angular-toastr.css" />
+    <link rel="stylesheet" href="../bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="../bower_components/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../bower_components/circular-content-carousel/dist/css/style.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="app/index.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/jsLib/modernizr.custom.js"></script>
+    <script src="assets/jsLib/elastic_grid.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ui-view></div>
+
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="../bower_components/angular-touch/angular-touch.js"></script>
+    <script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="../bower_components/angular-messages/angular-messages.js"></script>
+    <script src="../bower_components/angular-aria/angular-aria.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="../bower_components/malarkey/dist/malarkey.min.js"></script>
+    <script src="../bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+    <script src="../bower_components/angular-material/angular-material.js"></script>
+    <script src="../bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script src="../bower_components/angular-slick-carousel/dist/angular-slick.js"></script>
+    <script src="../bower_components/jquery.easing/js/jquery.easing.js"></script>
+    <script src="../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="../bower_components/circular-content-carousel/dist/js/jquery.contentcarousel.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <script src="app/index.module.js"></script>
+    <script src="app/pages/newsViewer/newsViewer.controller.js"></script>
+    <script src="app/pages/newsList/newsList.controller.js"></script>
+    <script src="app/pages/main/main.controller.js"></script>
+    <script src="app/pages/liveStreaming/liveStreaming.controller.js"></script>
+    <script src="app/pages/drama/drama.controller.js"></script>
+    <script src="app/components/topBar/topBar.directive.js"></script>
+    <script src="app/components/signIn/sigIn.controller.js"></script>
+    <script src="app/components/seriesSearch/seriesSearch.directive.js"></script>
+    <script src="app/components/schedule/schedule.directive.js"></script>
+    <script src="app/components/newsListSm/newsListSm.directive.js"></script>
+    <script src="app/components/newsListLg/newsListLg.directive.js"></script>
+    <script src="app/components/newsHeader/newsHeader.directive.js"></script>
+    <script src="app/components/navbar/navbar.directive.js"></script>
+    <script src="app/components/innerTopBar/innerTopBar.directive.js"></script>
+    <script src="app/components/innerLive/innerLive.directive.js"></script>
+    <script src="app/components/individualPlayer/individualPlayer.controller.js"></script>
+    <script src="app/components/hubItemsCarousel/hubItemsCarousel.directive.js"></script>
+    <script src="app/components/hubGrid/hubGrid.directive.js"></script>
+    <script src="app/components/hubFooter/hubFooter.directive.js"></script>
+    <script src="app/components/hubCarousel/hubCarousel.directive.js"></script>
+    <script src="app/components/dramaElasticGrid/dramaElasticGrid.directive.js"></script>
+    <script src="app/components/dramaCarousel/dramaCarousel.directive.js"></script>
+    <script src="app/index.run.js"></script>
+    <script src="app/index.route.js"></script>
+    <script src="app/index.constants.js"></script>
+    <script src="app/index.config.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+
+    <link href="assets/css/elastic_grid.min.css" rel="stylesheet">
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/demo.css" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet">
+    <link href="assets/css/style6.css" rel="stylesheet">
+  </body>
+</html>

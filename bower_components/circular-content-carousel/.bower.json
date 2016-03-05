@@ -1,0 +1,29 @@
+{
+  "name": "circular-content-carousel",
+  "version": "1.0.3",
+  "main": [
+    "dist/css/style.css",
+    "dist/js/jquery.contentcarousel.js"
+  ],
+  "ignore": [
+    ".gitignore",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery.easing": "~1.3.0",
+    "jquery-mousewheel": ">=3.0.4",
+    "jquery": ">=1.7.0"
+  },
+  "devDependencies": {},
+  "homepage": "http://tympanus.net/Development/CircularContentCarousel/",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.3",
+    "commit": "5c9f4f11198b2dcc3660ddfbd452d7e2d9b0d9e1"
+  },
+  "_source": "git://github.com/logbon72/circular-content-carousel.git",
+  "_target": "~1.0.3",
+  "_originalSource": "circular-content-carousel",
+  "_direct": true
+}
