@@ -28,27 +28,27 @@
       var vm = this;
       vm.slides = [
         {
-          image: 'http://lorempixel.com/720/480/abstract'
+          image: '../assets/images/es3ad.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/animals'
+          image: '../assets/images/lames.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/business'
+          image: '../assets/images/marim.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/cats'
+          image: '../assets/images/sherbini.png'
         }, {
-          image: 'http://lorempixel.com/720/480/city'
+          image: '../assets/images/wallah.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/nightlife'
+          image: '../assets/images/goda.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/fashion'
+          image: '../assets/images/george.png'
         },
         {
-          image: 'http://lorempixel.com/720/480/people/2'
+          image: '../assets/images/faheta.png'
         }
       ];
 
