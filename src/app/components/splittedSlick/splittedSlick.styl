@@ -1,0 +1,45 @@
+.splitted-slick-container {
+  position relative
+  width: 100%
+  background-color rgb(226, 226, 226)
+  .element-container {
+    display flex
+    justify-content flex-start
+    height: 128px;
+    margin: 5px 15px;
+    position relative
+    .bg-image {
+      width 175px
+      height 100%
+      border-right 1px solid rgb(206, 43, 43)
+      background-size: cover;
+    }
+    .play {
+      width: 30px;
+      height: 30px;
+      background-color: #008000;
+      position: absolute;
+      top: calc(50% - 15px);
+      left: calc(50% - 15px);
+    }
+    .decription {
+      width 175px;
+      height 100%
+      background-color black
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 38px;
+    background-color: rgba(184, 184, 184, 1);
+    &.slick-next {
+      right 0px
+    }
+    &.slick-prev {
+      left 0px
+    }
+  }
+}

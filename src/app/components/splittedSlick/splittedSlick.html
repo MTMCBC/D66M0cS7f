@@ -1,0 +1,11 @@
+<div class="splitted-slick-container">
+  <slick settings="vm.slickConfig" infinite=true slides-to-show={{vm.slidesNumber}} slides-to-scroll=3>
+    <div ng-repeat="slide in vm.slides">
+      <div class="element-container">
+        <div class="bg-image" style="background-image:url({{slide.image}})"></div>
+        <div class="play"></div>
+        <div class="decription"></div>
+      </div>
+    </div>
+  </slick>
+</div>

@@ -1,0 +1,11 @@
+<div class="drama-news-slick-container">
+  <slick settings="vm.slickConfig" infinite=true slides-to-show={{vm.slidesNumber}} slides-to-scroll=3>
+    <div ng-repeat="slide in vm.slides">
+      <article>
+        <div class="article-image" style="background-image:url({{slide.image}})"></div>
+        <h3 class="article-header">{{slide.header}}</h3>
+        <p class="article-breif">{{slide.breif}}</p>
+      </article>
+    </div>
+  </slick>
+</div>
