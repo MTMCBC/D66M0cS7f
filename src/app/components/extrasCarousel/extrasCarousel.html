@@ -1,0 +1,18 @@
+<div class="extras-carousel-container">
+  <div class="extras-carousel">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in slides" active="slide.active" class="extras-carousel-element">
+        <article>
+          <header>
+            <h3>{{slide.header}}</h3>
+          </header>
+          <p>{{slide.description}}</p>
+        </article>
+        <div class="bg-img" style="background-image:url({{slide.image}}); "></div>
+      </slide>
+    </carousel>
+  </div>
+  <div class="right"></div>
+  <div class="left"></div>
+</div>
+

@@ -9,6 +9,9 @@
   function innerLive() {
     var directive = {
       restrict: 'AE',
+      scope: {
+        pageName : "@"
+      },
       templateUrl: 'app/components/innerLive/innerLive.html',
       controller: InnerLiveController,
       controllerAs: 'vm',
@@ -20,7 +23,7 @@
     InnerLiveController.$inject = ['$scope'];
     /** @ngInject */
     function InnerLiveController() {
-
+      var vm = this;
     }
   }
 

@@ -9,6 +9,9 @@
   function seriesSearch() {
     var directive = {
       restrict: 'AE',
+      scope: {
+        pageName : "@"
+      },
       templateUrl: 'app/components/seriesSearch/seriesSearch.html',
       controller: SeriesSearchController,
       controllerAs: 'vm',

@@ -17,23 +17,22 @@
 
     return directive;
 
-    DramaCarouselController.$inject = ['$scope'];
     /** @ngInject */
     function DramaCarouselController($scope) {
       var vm = this;
       $scope.myInterval = 3000;
       $scope.slides = [
         {
-          image: 'http://lorempixel.com/1280/720/'
+          image: '../../../assets/images/georgeBanner2.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/food'
+          image: '../../../assets/images/harbGawases.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/sports'
+          image: '../../../assets/images/georgeBanner2.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/people'
+          image: '../../../assets/images/harbGawases.png'
         }
       ];
     }

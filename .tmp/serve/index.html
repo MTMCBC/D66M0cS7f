@@ -35,7 +35,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div ui-view></div>
+    <div ui-view  autoscroll="true"></div>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
@@ -64,16 +64,21 @@
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
     <script src="app/index.module.js"></script>
+    <script src="app/pages/singleNews/singleNews.controller.js"></script>
+    <script src="app/pages/program/program.controller.js"></script>
     <script src="app/pages/newsViewer/newsViewer.controller.js"></script>
     <script src="app/pages/newsList/newsList.controller.js"></script>
     <script src="app/pages/main/main.controller.js"></script>
     <script src="app/pages/liveStreaming/liveStreaming.controller.js"></script>
+    <script src="app/pages/extras/extras.controller.js"></script>
     <script src="app/pages/drama/drama.controller.js"></script>
+    <script src="app/pages/cbc/cbc.controller.js"></script>
     <script src="app/components/topBar/topBar.directive.js"></script>
     <script src="app/components/splittedSlick/splittedSlick.directive.js"></script>
     <script src="app/components/signIn/sigIn.controller.js"></script>
     <script src="app/components/seriesSearch/seriesSearch.directive.js"></script>
     <script src="app/components/schedule/schedule.directive.js"></script>
+    <script src="app/components/rowItems/rowItems.directive.js"></script>
     <script src="app/components/newsListSm/newsListSm.directive.js"></script>
     <script src="app/components/newsListLg/newsListLg.directive.js"></script>
     <script src="app/components/newsHeader/newsHeader.directive.js"></script>
@@ -85,6 +90,10 @@
     <script src="app/components/hubGrid/hubGrid.directive.js"></script>
     <script src="app/components/hubFooter/hubFooter.directive.js"></script>
     <script src="app/components/hubCarousel/hubCarousel.directive.js"></script>
+    <script src="app/components/extrasNav/extrasNav.directive.js"></script>
+    <script src="app/components/extrasHeaderSection/extrasHeaderSection.directive.js"></script>
+    <script src="app/components/extrasCarousel/extrasCarousel.directive.js"></script>
+    <script src="app/components/dramaNewsSlick/dramaNewsSlick.directive.js"></script>
     <script src="app/components/dramaElasticGrid/dramaElasticGrid.directive.js"></script>
     <script src="app/components/dramaCarousel/dramaCarousel.directive.js"></script>
     <script src="app/index.run.js"></script>
@@ -99,7 +108,7 @@
     <!-- endbuild -->
 
 
-    <link href="assets/css/elastic_grid.min.css" rel="stylesheet">
+    <!--<link href="assets/css/elastic_grid.min.css" rel="stylesheet">-->
     <link href="assets/css/normalize.css" rel="stylesheet">
     <link href="assets/css/demo.css" rel="stylesheet">
     <link href="assets/css/icons.css" rel="stylesheet">

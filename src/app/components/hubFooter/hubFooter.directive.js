@@ -19,8 +19,27 @@
 
     HubFooterController.$inject = ['$scope'];
     /** @ngInject */
-    function HubFooterController() {
-
+    function HubFooterController($state) {
+      var vm = this;
+      vm.goTo = function(channel){
+        switch (channel){
+          case 'cbc':
+            $state.go(
+                'cbc'
+            );
+            break;
+          case 'drama':
+            $state.go(
+                'drama'
+            );
+            break;
+          case 'extras':
+            $state.go(
+                'extras'
+            );
+            break;
+        }
+      }
     }
   }
 

@@ -17,22 +17,21 @@
 
     return directive;
 
-    HubCarouselController.$inject = ['$scope'];
     /** @ngInject */
     function HubCarouselController($scope) {
       $scope.myInterval = 3000;
       $scope.slides = [
         {
-          image: 'http://lorempixel.com/1280/720/'
+          image: '../../../assets/images/georgebanner.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/food'
+          image: '../../../assets/images/monabanner.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/sports'
+          image: '../../../assets/images/3eshaswad.png'
         },
         {
-          image: 'http://lorempixel.com/1280/720/people'
+          image: '../../../assets/images/allahoa3lambanner.png'
         }
       ];
       $scope.currentSlide = -1;

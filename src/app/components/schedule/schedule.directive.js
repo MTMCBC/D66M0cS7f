@@ -20,7 +20,7 @@
     ScheduleController.$inject = ['$scope'];
     /** @ngInject */
     function ScheduleController() {
-
+      var vm = this;
     }
   }
 

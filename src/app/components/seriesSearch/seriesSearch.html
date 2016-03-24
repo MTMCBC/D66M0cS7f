@@ -1,9 +1,14 @@
-<div class="series-part">
+<div class="series-part"  ng-class="{'cbc': vm.pageName == 'cbc'
+                                    ,'drama': vm.pageName == 'drama'
+                                    ,'extras': vm.pageName == 'extras'}" >
   <div class="series-search-container">
-    <div class="series-title">المسلسلات</div>
-
+    <div ng-if="vm.pageName == 'drama'" class="series-title">المسلسلات</div>
+    <div ng-if="vm.pageName == 'cbc'" class="series-title">برامج</div>
+    <div ng-if="vm.pageName == 'extras'" class="series-title">برامج</div>
     <div class="search-box">
-      <input type="text" placeholder="أسم المسلسل">
+      <input ng-if="vm.pageName == 'drama'" type="text" placeholder="أسم المسلسل">
+      <input  ng-if="vm.pageName == 'cbc'" type="text" placeholder="أسم البرنامج">
+      <input  ng-if="vm.pageName == 'extras'" type="text" placeholder="أسم البرنامج">
     </div>
 
   <span class="search-btn">

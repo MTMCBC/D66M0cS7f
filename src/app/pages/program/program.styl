@@ -1,0 +1,160 @@
+.program-container{
+  margin-top: 65px;
+  min-width: 768px;
+  .row{
+    margin-right 0px
+  }
+  .navigation-bar{
+    background-color rgb(125, 125, 125)
+    padding-top: 14px;
+    ul{
+      margin-top: 0;
+      margin-bottom: 10px;
+      display: inline-flex;
+      flex-direction: row-reverse;
+      float: right;
+      text-decoration: none;
+      margin-right 50px
+      li{
+        display inline
+        margin-left 50px
+        font-size 15px
+      }
+    }
+  }
+  .ads{
+    background-color rgb(125, 125, 125)
+    .add{
+      height 60px
+      background-color black
+      margin-top 10px
+      margin-bottom 10px
+    }
+  }
+  .prog-data{
+    background-color rgb(125, 125, 125)
+    padding-bottom: 20px;
+    .ad-left{
+      background-color black
+      height 610px
+      padding-right 12px
+    }
+    .play-list{
+      height 610px
+      padding-right 12px
+      overflow: auto;
+      .row{
+        background-color #464646
+        margin-left 15px
+        padding 8px
+        border-bottom: 1px solid gray;
+        .bg-img{
+
+        }
+          .title{
+            height: 55px;
+            text-align: right;
+            color: #708090;
+            position: relative;
+            padding: 0px;
+            header{
+              h4{
+                font-size 12px
+                margin 2px
+                font-weight bold
+              }
+            }
+            footer{
+              position absolute
+              bottom 0px
+              right: 0px;
+              h6{
+                color: lightyellow
+                font-size 12px
+                margin: 0px;
+              }
+            }
+          }
+      }
+    }
+    .prog-main-data{
+      height 610px
+
+      .prog-img{
+        height 425px
+        .col-prog-img{
+          height 100%
+          .img-bg{
+            background-image: url("../../../assets/images/goda.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            height: 100%;
+            width: 100%;
+          }
+            .prog-description{
+              position: absolute;
+              bottom: 0px;
+              height: 130px;
+              background-color: rgba(0,0,0,0.5);
+              text-align: right;
+              color: #fff;
+              padding: 15px;
+              box-sizing: border-box;
+              right: 15px;
+              left: 15px;
+            }
+        }
+
+      }
+      .most-watched{
+        height 185px
+        .most-watched-title{
+          padding-right 20px
+          padding-top 10px
+          padding-bottom 10px
+          box-sizing border-box
+          text-align right
+          color black
+          background-color rgb(177, 177, 177)
+        }
+      }
+    }
+  }
+
+
+  .other-progs{
+      height 500px
+      margin-top 20px
+      padding-bottom 20px
+      .other-prog-col{
+        height 100%
+        background-color black
+        h3{
+          text-align right
+          color white
+        }
+        .other-progs-container{
+          display: flex
+          justify-content flex-start
+          flex-wrap wrap
+          .prog-img-container{
+            height: 175px;
+            width: 29%;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 20px;
+            min-width: 182px;
+            .prog-img{
+              width: 100%;
+              height: 100%;
+              background-size: contain;
+              min-width: 200px;
+              background-position: 50% 50%;
+              background-repeat: no-repeat;
+            }
+          }
+        }
+      }
+  }
+}

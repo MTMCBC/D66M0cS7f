@@ -1,0 +1,145 @@
+<inner-top-bar></inner-top-bar>
+<div class="program-container">
+    <div class="row navigation-bar">
+        <div class="col-xs-12">
+            <ul>
+                <li>الحلقات</li>
+                <li>البروموهات</li>
+                <li>الأخبار</li>
+                <li>صور و كواليس</li>
+                <li>المسابقة</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row ads">
+        <div class="col-xs-offset-3  col-xs-6 add">
+            AD
+        </div>
+    </div>
+    <div class="row prog-data">
+        <div class="ad-left col-xs-2">
+            Ad
+        </div>
+        <div class="play-list col-xs-3">
+            <!--Here we need to add ng-repeate-->
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+            <div class="row">
+                <div class="col-xs-8 title">
+                    <header>
+                        <h4>Header of the prog</h4>
+                    </header>
+                    <footer>
+                        <h6>By Ali</h6>
+                    </footer>
+                </div>
+                <img src="../../../assets/images/goda.png" class="col-xs-4 bg-img"></img>
+
+            </div>
+        </div>
+        <div class="prog-main-data col-xs-7">
+            <div class="row prog-img">
+                <div class="col-xs-12 col-prog-img">
+                    <div class="img-bg"></div>
+                    <div class="prog-description">
+                        شيشا حج تضصي نشسي خهصض ختعضتىئ ححهتىؤهضؤنم ختضصي عتحةمسش
+                        ني ن ضهصي حشس يختا0حشس بيححت-ض صيبة
+
+                        شيشا حج تضصي نشسي خهصض ختعضتىئ ححهتىؤهض
+                        ؤنم ختضصي عتحةمسشني ن ضهصي حشس يختا0حشس بيححت-
+                        ض صيبة
+
+                    </div>
+                </div>
+            </div>
+            <div class="row most-watched">
+                <div class="col-xs-12">
+                    <div class="most-watched-title">الأكثر مشاهدة</div>
+                    <splitted-slick slides-number=3></splitted-slick>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row other-progs">
+        <div class="col-xs-offset-1  col-xs-10 other-prog-col">
+            <header>
+                <h3>مسلسلات أخري</h3>
+            </header>
+            <div class="other-progs-container">
+                <div class="prog-img-container" ng-repeat="otherProg in otherProgs">
+                    <div class="prog-img" style="background-image:url({{otherProg.image}})"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
